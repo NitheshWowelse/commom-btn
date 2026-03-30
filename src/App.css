@@ -1,0 +1,28 @@
+/* Stylish branded button */
+.brand-button {
+  background: linear-gradient(135deg, #6c63ff, #42a5f5); /* gradient purple-blue */
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.brand-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #42a5f5, #6c63ff); /* subtle reverse gradient */
+}
+
+/* Active / click effect */
+.brand-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
