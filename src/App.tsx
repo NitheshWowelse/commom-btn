@@ -1,6 +1,6 @@
 import './App.css'
 
-function App() {
+function sharedui() {
   return (
     <div className="hello">
       Main sample text
@@ -8,4 +8,4 @@ function App() {
   )
 }
 
-export default App
+export default sharedui
